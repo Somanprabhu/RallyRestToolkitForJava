@@ -26,7 +26,7 @@ public class UpdateRequest extends Request {
      * @param obj the JSON representation of the values of the object
      */
     public UpdateRequest(String ref, JsonObject obj) {
-        this.ref= ref;
+        this.ref = ref;
         this.obj = obj;
     }
 
